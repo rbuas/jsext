@@ -2,7 +2,7 @@
   "name" : "jsext",
   "version" : "1.0.0",
   "description" : "A nodejs extionsions library to manipulate basic js structures.",
-  "author" : "Rodrigo Buas <rodrigobuas@gmail.com>",
+  "author" : "rbuas <rodrigobuas@gmail.com>",
   "keywords" : ["js", "extensions"],
   "main" : "./jsext",
   "repository" : {
