@@ -6,6 +6,7 @@ var path = require("path");
 var os = require("os");
 
 jsext.PriorityQueue = require("./priorityqueue");
+jsext.Log = require("./log");
 
 // JS Type Extensions
 
