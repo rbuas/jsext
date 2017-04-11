@@ -1,9 +1,11 @@
+module.exports = jsext = {};
+
 var querystring = require("querystring");
 var fs = require("fs");
 var path = require("path");
 var os = require("os");
 
-module.exports = jsext = {};
+jsext.PriorityQueue = require("./priorityqueue");
 
 // JS Type Extensions
 

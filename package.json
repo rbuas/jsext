@@ -7,16 +7,21 @@
     "js",
     "extensions"
   ],
+  "license": "MIT",
   "main": "./jsext",
   "repository": {
     "type": "git",
     "url": "http://github.com/rbuas/jsext.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
   "devDependencies": {
-    "mocha": "^2.4"
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "yargs": "^4.8.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha test/*.unittest.js"
+    "test": "node_modules/.bin/mocha *.unittest.js"
   }
 }

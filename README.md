@@ -6,7 +6,7 @@ Funtions utils to manipulates basic objects and structures in nodejs.
 
  * [Installation](#installation)
  * [Usage](#usage)
- * [ToDo / Ideas](#todo--ideas)
+ * [ToDo](#todo)
  * [License](#license)
 
 ## Installation
@@ -29,7 +29,7 @@ var jsext = require('jsext');
 //TODO
 ```
 
-## ToDo / Ideas
+## ToDo
 
 There are a lot of things still to be done and to be made better. If you have any special requests please open an issue with a feature request.
 
