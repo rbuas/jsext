@@ -1,16 +1,18 @@
 {
-  "name" : "jsext",
-  "version" : "0.0.0",
-  "description" : "A nodejs extionsions library to manipulate basic js structures.",
-  "author" : "rbuas <rodrigobuas@gmail.com>",
-  "keywords" : ["js", "extensions"],
-  "main" : "./jsext",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/rbuas/jsext.git"
+  "name": "jsext",
+  "version": "1.0.0",
+  "description": "A nodejs extionsions library to manipulate basic js structures.",
+  "author": "rbuas <rodrigobuas@gmail.com>",
+  "keywords": [
+    "js",
+    "extensions"
+  ],
+  "main": "./jsext",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/rbuas/jsext.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "mocha": "^2.4"
   },
