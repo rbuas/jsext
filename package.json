@@ -1,0 +1,20 @@
+{
+  "name" : "jsext",
+  "version" : "1.0.0",
+  "description" : "A nodejs extionsions library to manipulate basic js structures.",
+  "author" : "Rodrigo Buas <rodrigobuas@gmail.com>",
+  "keywords" : ["js", "extensions"],
+  "main" : "./jsext",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/rbuas/jsext.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^2.4"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.unittest.js"
+  }
+}
