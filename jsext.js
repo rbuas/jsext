@@ -67,6 +67,15 @@ if(!Array.prototype.clean) {
     }
 }
 
+if(!Array.prototype.removeValue) {
+    Array.prototype.removeValue = function(value) {
+        var index = this.indexOf(value);
+        if(index >= 0) {
+            this.splice(index, 1);
+        }
+    }
+}
+
 if(!Array.prototype.sample) {
     Array.prototype.sample = function(count) {
         count = count > this.length ? this.length : count;
