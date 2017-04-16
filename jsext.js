@@ -117,7 +117,7 @@ if (!String.prototype.format) {
 if (!Object.prototype.pick) {
     Object.prototype.pick = function(props) {
         var origin = this;
-        if(!props || !Array.isArray(props) || !props.length) return origin;
+        if(!props || !Array.isArray(props) || !props.length) return Object.assign({}, origin);
 
         var subset = props.reduce(function(out, k) {
             if(origin.hasOwnProperty(k)) out[k] = origin[k];
