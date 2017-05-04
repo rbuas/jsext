@@ -148,7 +148,7 @@ jsext.filterObject = function(obj, callback) {
     if(!obj)
         throw new Error("Missing object instance");
     if (typeof callback != "function")
-        throw new Error("Function type");
+        return obj;
 
     var response = {};
     Object.keys(obj).forEach(function(key) {
