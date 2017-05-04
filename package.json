@@ -1,6 +1,6 @@
 {
   "name": "jsext",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A nodejs extionsions library to manipulate basic js structures.",
   "author": "rbuas <rodrigobuas@gmail.com>",
   "keywords": [
