@@ -142,6 +142,13 @@ if (!Object.prototype.format) {
     }
 }
 
+if (!Object.prototype.first) {
+    Object.prototype.first = function() {
+        var origin = this;
+        return jsext.first(this);
+    }
+}
+
 // Extension's functions
 
 jsext.filterObject = function(obj, callback) {
